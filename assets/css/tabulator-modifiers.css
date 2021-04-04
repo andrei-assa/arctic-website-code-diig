@@ -1,0 +1,16 @@
+.tabulator-header {
+    background-color: #222;
+}
+
+.submit {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.tabulator-footer {
+    background-color: #222;
+}
+
+.tabulator-page {
+    background-color: white;
+}

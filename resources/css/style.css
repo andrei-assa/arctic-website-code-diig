@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+div#tabulator-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.tabulator-btn {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 2px;
+    margin-right:2px;
+    border-radius: 3px;
+}
+
+#submit-btn {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#submit-reset {
+    display: flex;
+    justify-content: center;
+}
+
+div#submit-reset-div {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+div#submit-reset-div > * {
+    margin: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#submit2 {
+    background-color: green;
+    color: white;
+}
+
+/*#reset {*/
+/*    background-color: yellow;*/
+/*    color : darkorange;*/
+/*}*/
+
+
+.tabulator-btn:hover {
+    background-color: darkgreen;
+}
+
+/*.tabulator-header {*/
+/*    -webkit-text-size-adjust: 100%;*/
+/*    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+/*    line-height: 1.42857143;*/
+/*    font-size: 14px;*/
+/*    text-align: left;*/
+/*    font-family: sans-serif;*/
+/*    position: relative;*/
+/*    box-sizing: border-box;*/
+/*    width: 100%;*/
+/*    border-bottom: 3px solid #3fb449;*/
+/*    background-color: #222;*/
+/*    color: #fff;*/
+/*    font-weight: 700;*/
+/*    white-space: nowrap;*/
+/*    overflow: hidden;*/
+/*    -webkit-user-select: none;*/
+/*    padding-right: 0px;*/
+/*  }*/
+
+/*#tabulator-node {*/
+/*    -webkit-text-size-adjust: 100%;*/
+/*      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+/*      line-height: 1.42857143;*/
+/*      color: #333333;*/
+/*      font-weight: lighter;*/
+/*      box-sizing: border-box;*/
+/*      position: relative;*/
+/*      border-bottom: 5px solid #222;*/
+/*      background-color: #fff;*/
+/*      font-size: 14px;*/
+/*      text-align: left;*/
+/*      overflow: hidden;*/
+/*      transform: translatez(0);*/
+/*      font-family: sans-serif;*/
+/*      margin-bottom: 30px;*/
+/*      border-radius: 3px;*/
+/*      height: 317px;*/
+}
+
+
+/*.tabulator .tabulator-header .tabulator-col {*/
+/*          display: inline-block;*/
+/*          position: relative;*/
+/*          box-sizing: border-box;*/
+/*          border-right: 1px solid #aaa;*/
+/*          background-color: #222;*/
+/*          text-align: left;*/
+/*          vertical-align: bottom;*/
+/*          overflow: hidden;*/
+/*      }*/
